@@ -1,0 +1,14 @@
+.texteditor-wrapper{
+    width: 70%;
+    border: 1px solid gray;
+    padding: 5px;
+    
+}
+.blogtitle-box{
+    width: 100%;
+}
+
+.title-textfield{
+    width: 95%;
+    margin: 10px;
+}

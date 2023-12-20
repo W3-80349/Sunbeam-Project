@@ -1,0 +1,13 @@
+.notfound-container{
+    height: 100vh;
+    background-color: black;
+    
+
+}
+.notfound-wrapper{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

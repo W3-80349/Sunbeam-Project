@@ -1,0 +1,169 @@
+.login-container{
+    border: 1px solid gray;
+    height: 100vh;
+    width: 100vw;
+    
+    
+}
+.navBar{
+    width: 100%;
+    height: 0px;
+}
+
+.login-wrapper{
+    height: 100%;
+    width: 100%;
+    display: flex;
+
+}
+
+.loginpage-leftside{
+    max-width: 40%;
+    height: 100vh;
+    width: 100%;
+    background-color: #111010;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;   
+}
+.loginpage-leftside span{
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 250px;
+  margin-top: 15rem;
+  font-family: Roboto;
+}
+
+.loginpage-rightside{
+    border: 1px solid gray;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.loginForm{
+    border: 1px solid rgb(209, 205, 205);
+    border-radius: 30px;
+    height: 400px;
+    width: 370px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.user-Email{
+    width: 300px;
+    font-size: 25px;
+    margin-bottom: 20px;
+    
+}
+
+.user-Password{
+    width: 300px;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+.submit-button{
+    width: 300px;
+}
+
+.submit-button Button{
+    background-color: #111010;
+    width: 300px;
+    font-size: 15px;
+    font-weight: 800;
+
+}
+.forgetPasswordandRegister{
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-right: 60px;
+}
+
+.forgetPassword{
+    margin-bottom: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.register{
+    font-size: 15px;
+}
+.register span{
+    color: blue;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    
+    .login-wrapper {
+        flex-direction: column;
+      }
+    
+      .loginpage-leftside {
+        display: none;
+       
+      }
+      .navBar{
+        width: 100%;
+        height: 80px;
+        background-color: #111010;
+        text-align: center;
+        color: white;
+        font-size: 68px;
+    }
+     
+
+   
+      .loginForm {
+        width: 90%; /* Adjust the form width to fit the smaller screen */
+        height: 450px;
+        margin: 10px;
+        margin-bottom: 200px;
+      }
+
+      .loginpage-rightside{
+        height: 100vh;
+      }
+    
+      .user-Email,
+      .user-Password {
+        width: 80%; /* Adjust the input field width */
+        font-size: 20px;
+      }
+    
+      .submit-button {
+        width: auto; /* Adjust the button width */
+      }
+    
+      .submit-button Button {
+        font-size: 15px;
+      }
+    
+      .forgetPasswordandRegister {
+        flex-direction: column;
+        margin: 20px 0;
+        text-align: center;
+      }
+    
+      .forgetPassword,
+      .register {
+        font-size: 15px;
+      }
+    
+      .register span {
+        color: blue;
+        cursor: pointer;
+      }
+}
